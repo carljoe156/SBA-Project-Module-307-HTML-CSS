@@ -1,0 +1,231 @@
+body {
+    font-family: 'Domine', sans-serif;
+    margin: 0;
+    /*to fix header gaps/ white spaces*/
+
+}
+
+header {
+    width: 100%;
+    /* margin: 0;
+    padding: 0;
+    height: 100vh; */
+}
+
+button {
+    border: initial;
+    background: initial;
+    font: inherit
+}
+
+
+.search-container {
+    display: flex;
+    align-items: auto;
+}
+
+.search-container input[type="text"] {
+    display: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-container button {
+    padding: 10px;
+    border: none;
+    background-color: #ffcc00;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.auth {
+    /*starts here can probably remove in future*/
+    margin-left: 0;
+}
+
+.auth .btn {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.auth .btn:hover {
+    background-color: rgba(220, 120, 15, 0.712);
+    /*ends here for search bar settings*/
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(199, 45, 25);
+    padding: 10px 20px;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+}
+
+.nav1 a {
+    color: black;
+    font-size: 20px;
+    padding-right: 20px;
+    transition: color 0.3s;
+}
+
+.nav1 a:hover {
+    color: rgb(239, 122, 30);
+}
+
+.brand {
+    flex: 1;
+    text-align: center;
+}
+
+.brand h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.auth {
+    margin-left: auto;
+}
+
+.auth .btn {
+    background-color: rgb(239, 122, 30);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.auth .btn:hover {
+    background-color: rgba(239, 121, 30, 0.712);
+}
+
+
+
+
+
+
+
+.blog {                                 /*heading redirection info*/
+    padding: 20px;
+    margin: auto;
+    font-size: 55px;
+    color: #ff6200;
+    background-color: #f9f9f9;
+                                         /* for changing the background it's got a bit of grey in there*/
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media queries listing*/
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column; 
+        flex-wrap: wrap;
+        align-items: center; 
+
+    }
+    .nav1 {
+        flex-wrap: wrap ;
+        margin: 10px;
+        align-items: center;
+    }
+
+    .search-container {
+        margin-top: 10px;
+    }
+
+    .form-container {
+        flex-wrap: wrap;
+        margin: 15px;
+    }
+
+
+   }
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em; 
+    }
+    
+
+    .gif-container {
+        flex-wrap: wrap;
+          padding: 5px;
+
+    }
+
+    .form-container h2 {
+        flex-wrap: wrap;
+        font-size: 1.2em;
+    }
+
+    .form-container h3 {
+        flex-wrap: wrap;
+             font-size: 1em;
+    }
+
+    .nav1 a {
+        font-size: 0.9em; 
+        flex-wrap: wrap;
+    }
+}
+
+    footer {
+         padding: 15px;
+    }
+    

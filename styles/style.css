@@ -1,0 +1,272 @@
+body{
+    font-family:'Domine', sans-serif;
+
+}
+
+header {
+    width: 100%;
+}
+
+.search-container {
+    display: flex;
+    align-items: auto;
+}
+.search-container input[type="text"] {
+    display: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.search-container button {
+    padding: 10px;
+    border: none;
+    background-color: #ffcc00;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;   
+}
+
+.auth {                                         /*starts here can probably remove in future*/
+    margin-left: 0; 
+}
+
+.auth .btn {
+    background-color: rgb(243, 3, 3);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.auth .btn:hover {
+    background-color: rgba(220, 120, 15, 0.712);   /*ends here for search bar settings*/
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(199, 45, 25);
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+}
+
+.nav1 a {
+    color: black;
+    font-size: 20px;
+    padding-right: 20px;
+    transition: color 0.3s;
+}
+
+.nav1 a:hover {
+    color: rgb(239, 122, 30);
+}
+
+.brand {
+    flex: 1;                           
+    text-align: center; 
+}
+
+.brand h1 {
+    color: white; 
+    font-size: 24px; 
+}
+
+.auth {
+    margin-left: auto; 
+}
+
+.auth .btn {
+    background-color: rgb(239, 122, 30);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.auth .btn:hover {
+    background-color: rgba(239, 121, 30, 0.712); 
+}
+
+
+/* section 1 infomation*/
+.sec1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    color: #ff6200;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px;
+    }
+
+/* .text {                                  <<<< Replaced with ".fade-in" transitions
+    transition: transform 0.3s ease;
+}
+
+.text:hover{
+    transform: scale(1.05);
+
+} */
+
+.fade-in {
+    opacity: 0%;
+    transform: translateY(-20px);
+    animation: fadeIn 3s forwards;
+    animation-delay: 0.5s; 
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+    
+
+.content {
+    max-width: 600px; 
+}
+
+.bake-image {
+    width: 400px; 
+    height: auto; 
+    margin-left: 20px; 
+}
+
+
+.button-container {
+    display: flex;
+
+    gap: 10px; 
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #1f5d9e;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+
+    
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+/* about us information below*/
+
+
+.about-us {
+    padding: 20px;
+    background-color: #f9f9f9; 
+    text-align: center; 
+}
+
+.about-us h2 {
+    color: rgb(57, 33, 55);
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.about-image {
+    width: 100%; 
+    height: auto; 
+    max-width: 500px; 
+    margin-bottom: 20px; 
+}
+
+.about-us p {
+    color: rgb(109, 97, 100);
+    font-size: 16px;
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+
+
+ /* next section*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* This next section is for media queries */                           
+
+
+
+
+
+@media (max-width: 768px) {                                                       /* media queries part just what I have so far  */
+    nav {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .nav1 {
+        flex-wrap: wrap; 
+        margin-bottom: 10px; 
+    }
+
+    .brand {
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .search-container {
+        width: 100%; 
+        flex-direction: column;
+        justify-content: none; 
+    }
+
+    .search-bar {
+        width: 70%; 
+        margin-right: 5px; 
+    }
+
+    .auth .btn {
+        padding: 8px 12px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        padding: 150px 15px 0;
+        
+  }
+
+}
