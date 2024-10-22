@@ -1,1 +1,3 @@
 # SBA-Project-Module-307-HTML-CSS
+ServeSpoon
+This process has been an exciting journey as I’ve integrated everything we've learned in class and through our assignments into this restaurant website. One of my main goals with these new skills has always been to help others, and this project reflects that passion. While it’s still a work in progress, this version includes the basic structure and some decorative elements. I’m also open to new collaborations, so if anyone has ideas or projects in mind, I’d love to discuss them!
